@@ -1,0 +1,4 @@
+goto_search:
+  - by: xpath
+    locator: '//*[@text = "搜索股票/组合/用户/讨论"]'
+    action: click

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "demo6.testcase.test_register",
+    "children" : [ {
+      "name" : "test_recharge",
+      "uid" : "bca9a5993fc6c126",
+      "parentUid" : "abf5e8f5735b12af01c6e30933d4abd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608599262690,
+        "stop" : 1608599262818,
+        "duration" : 128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "demo6.testcase.test_register"
+  } ]
+}

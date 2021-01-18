@@ -1,0 +1,7 @@
+goto_homepage:
+  - by: xpath
+    locator: '//div[@id = "indextop"]//div/a[text() = "登录"]'
+    action: click
+
+
+  

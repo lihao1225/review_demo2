@@ -1,0 +1,1 @@
+{'code': 0, 'msg': 'OK', 'data': {'id': 1770240408, 'leave_amount': 5000.0, 'mobile_phone': '13812345670', 'reg_name': '小柠檬', 'reg_time': '2020-12-18 20:39:35.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}

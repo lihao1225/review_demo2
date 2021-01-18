@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 22 09:07:42 CST 2020","Tue Dec 22 09:07:42 CST 2020","128","demo6.testcase","test_register","TestRegister","","","test_recharge",""

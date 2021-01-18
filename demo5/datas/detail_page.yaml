@@ -1,0 +1,30 @@
+detail_page:
+  - by: xpath
+    locator: '//*[contains(@text,"姓名")]/..//*[@resource-id="com.tencent.wework:id/au0"]'
+    action: send_key
+    text: ${name}
+
+  - by: xpath
+    locator: '//*[@text="性别"]/..//*[@resource-id="com.tencent.wework:id/av2"]'
+    action: click
+
+
+  - visible: (MobileBy.XPATH,'//*[@text="女"]')
+    action: wait_for_vis
+
+
+  - by: xpath
+    locator: '//*[@text="${sex}"]'
+    action: click
+
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/eq7"]'
+    action: send_key
+    text: ${phone}
+
+  - click: (MobileBy.XPATH,'//*[@resource-id="com.tencent.wework:id/gur"]')
+    action: wait_for_click
+
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/gur"]'
+    action: click

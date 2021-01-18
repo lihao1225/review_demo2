@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "充值接口",
+    "children" : [ {
+      "name" : "充值成功",
+      "children" : [ {
+        "name" : "test_recharge",
+        "uid" : "6598501f1fd5ca95",
+        "parentUid" : "855bcf245f015ed795a1544edfcad972",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608599262690,
+          "stop" : 1608599262818,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "855bcf245f015ed795a1544edfcad972"
+    } ],
+    "uid" : "3b90fe07f953e186581c7aba9d32305d"
+  } ]
+}

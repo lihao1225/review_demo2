@@ -1,0 +1,4 @@
+personal_information:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/guk"]'
+    action: click

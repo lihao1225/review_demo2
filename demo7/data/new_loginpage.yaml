@@ -1,0 +1,16 @@
+new_loginpage:
+  - by: xpath
+    locator: '//input[@placeholder = "请输入邮箱/手机号/账号"]'
+    text: ${phone}
+    action: send_key
+
+
+  - by: xpath
+    locator: '//input[@placeholder = "请输入密码"]'
+    text: ${pwd}
+    action: send_key
+
+  - by: xpath
+    locator: '//span[text() = "登录"]'
+    action: click
+

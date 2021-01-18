@@ -1,0 +1,27 @@
+add_class:
+  - by: xpath
+    locator: '//span[text() = "加入课程 "]'
+    action: click
+
+  - by: xpath
+    locator: '//input[@placeholder="请输入课程加课码"]'
+    text: ${class_num}
+    action: send_key
+
+  - by: xpath
+    locator: '//div[@aria-label= "加入课程"]//span[text()="确认"]'
+    action: click
+  - by: xpath
+    locator: '//div[@class="qrcode"]//span[contains(text(),"课堂码:P69UVV")]'
+    action: click
+
+  - action: sleep
+    time: 5
+
+goto_class:
+  - by: xpath
+    locator: '//div[@class="qrcode"]//span[contains(text(),"课堂码:P69UVV")]'
+    action: click
+
+  - action: sleep
+    time: 5

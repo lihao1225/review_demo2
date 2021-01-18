@@ -1,0 +1,27 @@
+register:
+  "method": "post"
+  "url": "${host}/member/register"
+  "headers": {"X-Lemonban-Media-Type":"lemonban.v2"}
+  "json":
+    "mobile_phone": ${mobile}
+    "pwd": ${pwd}
+
+
+login:
+  "method": "post"
+  "url": "${host}/member/login"
+  "headers": {"X-Lemonban-Media-Type":"lemonban.v2"}
+  "json":
+    "mobile_phone": ${mobile}
+    "pwd": ${pwd}
+
+
+recharge:
+  "method": "post"
+  "url": "${host}/member/recharge"
+  "headers":
+    "X-Lemonban-Media-Type": "lemonban.v2"
+    "Authorization": ${Authorization}
+  "json":
+    "member_id": ${member_id}
+    "amount": ${amount}

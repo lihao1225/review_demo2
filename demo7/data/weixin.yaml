@@ -1,0 +1,12 @@
+homepage:
+  - by: xpath
+    locator: '//span[text() = "导入通讯录"]'
+    action: click
+
+  - by: xpath
+    locator: '//span[text() = "上传文件"]/..//input'
+    text: /Users/huihuilina/Desktop/11.xls
+    action: send_key
+  - by: xpath
+    locator: '//div[text()="11.xls"]'
+    action: get_attribute

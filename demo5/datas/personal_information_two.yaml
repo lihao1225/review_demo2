@@ -1,0 +1,4 @@
+personal_information_two:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/azd"]'
+    action: click

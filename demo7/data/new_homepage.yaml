@@ -1,0 +1,11 @@
+goto_login:
+  - by: xpath
+    locator: '//span[text() = "登录"]'
+    action: find
+
+  - by: xpath
+    locator: '//span[text() = "登录"]'
+    action: click
+
+  - action: sleep
+    time: 3

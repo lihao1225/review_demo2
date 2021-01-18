@@ -1,0 +1,70 @@
+{
+  "uid" : "660d9614e337e115",
+  "name" : "test_recharge",
+  "fullName" : "demo6.testcase.test_register.TestRegister#test_recharge",
+  "historyId" : "361c0bf3f440397d8b01f17d8eaefe03",
+  "time" : {
+    "start" : 1608598323674,
+    "stop" : 1608598323804,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c94ce256912442a",
+      "name" : "log",
+      "source" : "3c94ce256912442a.txt",
+      "type" : "text/plain",
+      "size" : 85
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "demo6.testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "huihuilinadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "22024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "demo6.testcase.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "660d9614e337e115.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,10 @@
+address:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/gfj"]//*[@text="通讯录"]'
+    action: click
+
+
+goto_search:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/guu"]'
+    action: click

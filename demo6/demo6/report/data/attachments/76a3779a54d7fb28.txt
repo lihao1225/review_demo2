@@ -1,0 +1,1 @@
+[32mINFO    [0m lihao:test_register.py:51 测试用例${host}/member/recharge通过

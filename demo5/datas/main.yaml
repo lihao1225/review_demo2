@@ -1,0 +1,4 @@
+goto_msg:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/gfj"]//*[@text="消息"]'
+    action: click

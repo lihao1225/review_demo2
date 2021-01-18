@@ -1,0 +1,13 @@
+search:
+  - by: xpath
+    locator: '//*[@resource-id="com.xueqiu.android:id/search_input_text"]'
+    text: 阿里巴巴
+    action: send_key
+
+  - by: xpath
+    locator: '//*[@text = "BABA"]/../..'
+    action: click
+
+  - by: xpath
+    locator: '//*[@resource-id="com.xueqiu.android:id/current_price"]'
+    action: get_text

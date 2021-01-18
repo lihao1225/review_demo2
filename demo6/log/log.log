@@ -1,0 +1,6 @@
+2020-12-21 21:23:44,843 - [test_register.py-->line:50] - INFO: 测试用例${host}/member/recharge通过
+2020-12-22 08:47:41,973 - [test_register.py-->line:50] - INFO: 测试用例${host}/member/recharge通过
+2020-12-22 08:52:03,803 - [test_register.py-->line:51] - INFO: 测试用例${host}/member/recharge通过
+2020-12-22 08:56:54,305 - [test_register.py-->line:52] - INFO: 测试用例${host}/member/recharge通过
+2020-12-22 09:07:42,817 - [test_register.py-->line:52] - INFO: 测试用例${host}/member/recharge通过
+2021-01-15 15:01:48,517 - [test_register.py-->line:52] - INFO: 测试用例${host}/member/recharge通过

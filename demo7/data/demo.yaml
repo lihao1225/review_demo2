@@ -1,0 +1,84 @@
+demo1:
+  - by: xpath
+    locator: '//form//input[@value="dbl click me"]'
+    action: double_click
+
+  - by: xpath
+    locator: '//form//input[@value="right click me"]'
+    action: right_click
+
+demo2:
+  - by: xpath
+    by1: xpath
+    locator: '//div[@id = "dragger"]'
+    locator1: '//div[text() = "Item 1"]'
+    action: drag_and_drop
+
+demo3:
+  - by: xpath
+    locator: '//label[text() = "Username "]/input'
+    action: click
+
+  - by: xpath
+    locator: '//label[text() = "Username "]/input'
+    action: send_key
+    text: test_demo3
+
+
+  - by: xpath
+    locator: '//label[text() = "Username "]/input'
+    action: keyboard
+
+demo4:
+  - by: xpath
+    locator: '//label[text() = "Username "]/input'
+    action: click
+
+  - by: xpath
+    locator: '//label[text() = "Username "]/input'
+    action: send_key
+    text: test_demo3
+
+
+  - by: xpath
+    locator: '//label[text() = "Username "]/input'
+    action: keyboard
+
+  - by: xpath
+    by1: xpath
+    locator: '//label[text() = "Username "]/input'
+    locator1: '//td[text() = "Username"]/..//input'
+    text: ${text}
+    action: copy_and_paste
+demo5:
+#  - by: xpath
+#    locator: '//a[text()="最新"]'
+  - height: 10000
+    action: scroll_element
+
+demo6:
+  - by: xpath
+    locator: '//a[text() ="新闻"]'
+    action: click
+
+  - action: switch_window
+
+
+demo7:
+  - frame_id: "iframeResult"
+    action: frame
+
+
+  - by: xpath
+    by1: xpath
+    locator: '//div[@id="draggable"]'
+    locator1: '//div[@id="droppable"]'
+    action: drag_and_drop
+
+  - action: switch_alert_accept
+
+  - action: tap_frame
+
+  - by: xpath
+    locator: '//button[@id="submitBTN"]'
+    action: click

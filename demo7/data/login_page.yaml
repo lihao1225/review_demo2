@@ -1,0 +1,24 @@
+login_page:
+  - locator: (By.XPATH,'//input[@name="account"]')
+    action: element_to_be_clickable
+#
+#  - time: 3
+#    action: sleep
+  - by: xpath
+    locator: '//input[@name="account"]'
+    action: move_to_element
+
+  - by: xpath
+    locator: '//input[@name="account"]'
+    text: ${phone}
+    action: send_key
+
+  - by: xpath
+    locator: '//input[@name="pass"]'
+    text: ${pwd}
+    action: send_key
+
+
+  - by: xpath
+    locator: '//div[@class= "padding-cont pt-login"]//a[text() = "登录"]'
+    action: click

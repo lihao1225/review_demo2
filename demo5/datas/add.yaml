@@ -1,0 +1,3 @@
+add:
+  - text : "添加成员"
+    action: scroll

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6598501f1fd5ca95",
+  "name" : "test_recharge",
+  "time" : {
+    "start" : 1608599262690,
+    "stop" : 1608599262818,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,13 @@
+main_page:
+  - locator: (By.XPATH,'//a[text() = "试用新版"]')
+    action: element_to_be_clickable
+
+  - action: sleep
+    time: 3
+
+  - by: xpath
+    locator: '//a[text() = "试用新版"]'
+    action: click
+
+  - action: switch_window
+

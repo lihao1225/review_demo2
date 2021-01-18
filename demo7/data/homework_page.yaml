@@ -1,0 +1,16 @@
+goto_homework_tab:
+  - by: xpath
+    locator: '//div[text()="作业" and @id="tab-4"]'
+    action: click
+
+  - by: xpath
+    locator: '//h4[text() = "仅限测试使用！！！"]'
+    action: scrollIntoView
+#
+#  - by: xpath
+#    locator: '//h4[text() = "20191126-自由发挥作业-提交任何技术内容均可！"]'
+#    action: click
+
+  - action: sleep
+    time: 5
+
